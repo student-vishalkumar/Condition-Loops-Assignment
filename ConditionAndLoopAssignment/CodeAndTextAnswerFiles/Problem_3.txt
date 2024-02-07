@@ -1,0 +1,58 @@
+Question : What are loops, and what do we need them? Explain different types of loops with their syntax and example
+
+Answer: 
+Loops in programming are used to repeat a block of code until the given condition is met. A loop statement allows programmers to execute a  statements multiple times without repetition of code.
+
+Need of Loops : 
+Without loop we do not print thousand of statements by writing the code but this possible due to Loops.
+
+Types of loops :
+1) for loop
+2) while loop
+3) do-while loop
+
+1) For loop : 
+This loop repeats until the define condition evaluates to false.
+
+Syntax : 
+for (initialization; condition; changer)
+  statements
+
+Example : 
+for(let i=0; i<6; i++){
+    console.log(i);
+}
+
+output: // 0,1,2,3,4,5
+
+2) While loop : 
+A while statement executes its statements as long as a defined condition evaluates to true.
+
+Syntax :
+initialisation;
+while(condition){
+    statement;
+    postincrement
+}
+
+Example:
+let i = 0;
+while(i<10){
+    console.log(i);
+    i++;
+}
+
+3) do-while loop: 
+This loopx repeats statement until a specified condition evaluates to false.
+
+Syntax:
+do
+  statement
+while (condition);
+
+Example: 
+let i = 0;
+do {
+  i =i + 1;
+  console.log(i);
+} while (i < 10);

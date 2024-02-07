@@ -1,0 +1,84 @@
+Question : What are conditional statements? Explain conditional statements with syntax and examples.
+
+Answer : Conditional statements are allow us to make decisionan based on the some conditional statements. For example, If my age is greater than 18 year then I can vote.
+
+There are some conditional statement which we used in JavaScript programming Language.
+
+-> IF conditional statement
+
+Syntax :      if(condition){
+                  //Body  (execute if condtion is true)
+             }
+
+Example : if(AIR<10){
+             console.log("Get IIT CSE BRANCH");
+          }
+
+-> IF Else conditional statement
+
+Syntax :     if(condition) {
+              //body (execute if condtion is true)
+             } else {
+                // run another code
+             }
+
+Example:     if(age>18) {
+               console.log("You can vote");
+            } else {
+               console.log("You cannot vote");
+            }
+
+-> IF ELSE IF Conditional statement
+
+Synatx :     if(condition1){
+              //body (execute if condtion1 is true)
+             } else if(condition2){
+             //body  (execute if condtion2 is true)
+             } else if(condition3){
+              //body (execute if condtion3 is true)
+             }
+
+Example:    if(Temp<15){
+              console.log("Weather is cold);
+            } else If(Temp>15 && Temp<25) {
+                console.log("Weather is not so cold and not so hot);
+            } else if(Temp>25) {
+                console.log("Weather is hot");
+            }
+
+-> Switch statements: It is used when we have certain number of choice. Switch statements are take a single expression/value as an input, and then look through several choices until they find one that matches that value, executing the correspond code that go along with it.
+
+Synatx:   switch (expression) {
+          case choice1:
+          // run this code
+           break;
+
+          case choice2:
+          // run this code instead
+           break;
+
+         // include as many cases as you like
+
+         default:
+         // only just run this code
+         break;
+         } 
+
+Example: 
+
+switch(choice) {
+      case "sunny":
+      console.log("Sport will be play Outside");
+      break;
+
+      case "rainy":
+      console.log("Sport will not play Outside");
+      break;
+
+      case "cold";
+      console.log("wear warm clothes then go outside");
+      break; 
+
+      default:
+      console.log("");
+}
